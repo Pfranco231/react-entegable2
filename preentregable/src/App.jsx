@@ -1,8 +1,8 @@
-import Navbar from "./NavBar"
-import Itemlist from "./Itemlist"
+import Navbar from "./componets/Navbar/NavBar"
+import Itemlist from "./componets/Itemlist"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Phones from "./telefonos";
-import Laptops from "./laptops";
+import Phones from "./componets/categorias/telefonos";
+import Laptops from "./componets/categorias/laptops";
 
 function App() {
 
